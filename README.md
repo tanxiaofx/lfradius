@@ -1,5 +1,5 @@
 # lfradius
-柳州城市职业学院(LCVC)校园网Openwrt自动认证脚本
+##柳州城市职业学院(LCVC)校园网Openwrt自动认证脚本
 
 
 
@@ -42,7 +42,7 @@
 
 
 
-1: 必须使用iptabls的ttl命令修改出口ttl为64（iptables -t mangle -A PREROUTING -j TTL --ttl-set 64）
+1: 必须使用iptabls的ttl命令修改出口ttl为64`iptables -t mangle -A PREROUTING -j TTL --ttl-set 64`
 
 
 
@@ -58,5 +58,5 @@
 2:该校园网账号所绑定的手机卡不得欠费，套餐过期等原因，否则该脚本不起作用
 
 
-3:需要在 系统——启动项——本地启动脚本添加  /root/campus_login.sh  实现开机自启
+3:需要在 系统——启动项——本地启动脚本添加  `/root/campus_login.sh ` 实现开机自启
 

@@ -60,3 +60,6 @@
 
 3:需要在 系统——启动项——本地启动脚本添加  `/root/campus_login.sh ` 实现开机自启
 
+## 效果图
+
+![效果图](https://github.com/tanxiaofx/lfradius/blob/main/IMG_0399.jpeg?raw=true)

@@ -63,3 +63,8 @@
 ## 效果图
 
 ![效果图](https://github.com/tanxiaofx/lfradius/blob/main/IMG_0399.jpeg?raw=true)
+
+
+##261015更新
+新增了自动检测脚本，使用方法同上，复制脚本内容到终端运行后补上`chmod +x /root/check_net.sh`赋予执行权限。完成后在Luci页面找到计划任务添加`*/2 * * * * /root/check_net.sh`
+
